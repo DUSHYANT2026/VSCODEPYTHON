@@ -36,3 +36,11 @@
 #     n = n // 10
 
 # print("Reversed Number:", ans)
+
+
+x = int(input())
+
+for i in range (0 , x+1):
+    for j in range (i , x+1):
+        print("$",end = " ")
+    # print()
