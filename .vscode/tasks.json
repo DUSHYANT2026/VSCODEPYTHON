@@ -1,3 +1,4 @@
+
 {
     "version": "2.0.0",
     "tasks": [
@@ -6,7 +7,7 @@
             "type": "shell",
             "command": "",
             "args": [
-                "python3",
+                "python",
                 "${relativeFile}",
                 "<",
                 "input.txt",
@@ -38,5 +39,4 @@
         }
     ]
 }
-
 

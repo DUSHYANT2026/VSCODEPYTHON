@@ -38,9 +38,17 @@
 # print("Reversed Number:", ans)
 
 
-x = int(input())
+# x = int(input())
 
-for i in range (0 , x+1):
-    for j in range (i , x+1):
-        print("$",end = " ")
-    # print()
+# for i in range (0 , x+1):
+#     for j in range (i , x+1):
+#         print("$",end = " ")
+#     print()                               # work as line break
+
+
+
+# x = int(input())
+
+# for i in range (0 , x):
+#     print("$" * i,end = " ")
+#     print()
