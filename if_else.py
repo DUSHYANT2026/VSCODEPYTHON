@@ -1,3 +1,7 @@
+# list is like array in python , use same indexing , it declare using [saqure bracket][] 
+# tuple is similar like list but declare using (paranthesis) ()
+# dictinoary has key for every element that present in the dict using {curly bracheses}{'f' : "king"} 
+
 # age = 65
 
 # if age < 13:
