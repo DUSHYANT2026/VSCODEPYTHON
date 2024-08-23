@@ -1,4 +1,73 @@
-*
-**
-***
-****
+Frequent Itemsets:
+frozenset({'Science'})
+frozenset({'English', 'Math'})
+frozenset({'Python'})
+frozenset({'Science', 'Geography'})
+frozenset({'English'})
+frozenset({'Java'})
+frozenset({'History'})
+frozenset({'C++'})
+frozenset({'JavaScript'})
+frozenset({'Science', 'English'})
+frozenset({'Math'})
+frozenset({'Geography'})
+frozenset({'Science', 'Math'})
+frozenset({'Physical Education'})
+----------------------------------------
+Number of rules generated: 8
+Rule: {'English'} -> {'Math'}
+Support: 0.16
+Confidence: 0.53
+Lift: 1.21
+Leverage: 0.03
+Conviction: 1.20
+----------------------------------------
+Rule: {'Math'} -> {'English'}
+Support: 0.16
+Confidence: 0.36
+Lift: 1.21
+Leverage: 0.03
+Conviction: 1.10
+----------------------------------------
+Rule: {'Science'} -> {'Geography'}
+Support: 0.10
+Confidence: 0.25
+Lift: 1.14
+Leverage: 0.01
+Conviction: 1.04
+----------------------------------------
+Rule: {'Geography'} -> {'Science'}
+Support: 0.10
+Confidence: 0.45
+Lift: 1.14
+Leverage: 0.01
+Conviction: 1.10
+----------------------------------------
+Rule: {'Science'} -> {'English'}
+Support: 0.14
+Confidence: 0.35
+Lift: 1.17
+Leverage: 0.02
+Conviction: 1.08
+----------------------------------------
+Rule: {'English'} -> {'Science'}
+Support: 0.14
+Confidence: 0.47
+Lift: 1.17
+Leverage: 0.02
+Conviction: 1.13
+----------------------------------------
+Rule: {'Science'} -> {'Math'}
+Support: 0.14
+Confidence: 0.35
+Lift: 0.80
+Leverage: -0.04
+Conviction: 0.86
+----------------------------------------
+Rule: {'Math'} -> {'Science'}
+Support: 0.14
+Confidence: 0.32
+Lift: 0.80
+Leverage: -0.04
+Conviction: 0.88
+----------------------------------------
