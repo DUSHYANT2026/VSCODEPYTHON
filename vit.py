@@ -46,3 +46,8 @@
 #     print('The string is Panagram ',s)
 # else:
 #     print('The string is not Panagram', s)
+
+
+file = open('dp.txt', 'r')
+for it in file:
+    print(it)
